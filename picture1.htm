@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Image with Centered Tag</title>
+<style>
+/* Style for the image */
+img {
+    width: 360px;
+    height: 480px;
+    display:block;
+    margin:0 auto;/*center image horizontally*/
+}
+
+/* Style for the tag */
+.tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /*Semi-transparent black background */
+    color: aqua;
+    padding: 30px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<img src="trees.png" alt="Image with centered tag">
+<div class="tag">Hello! These are trees</div>
+</body>
+</html>
